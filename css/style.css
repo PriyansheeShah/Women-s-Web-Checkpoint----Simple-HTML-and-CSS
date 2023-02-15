@@ -1,0 +1,106 @@
+img:nth-of-type(odd){
+
+    width: 45%;
+    padding: 20px;
+    margin: 5px 10px 20px 15px;
+    border: solid black 5px;
+    border-radius: 20px;
+}
+
+img:nth-of-type(even), div:nth-of-type(even)>img{
+    width: 45%;
+    padding: 20px;
+    margin: 5px 10px 20px 15px;
+    border: solid rgb(0, 234, 251) 5px;
+    border-radius: 40px;
+}
+
+img:hover{
+    border-color: red;
+    border-width: 10px;
+}
+
+body{
+    line-height: 1.5;
+    padding: 15px;
+ }
+
+
+ header, nav{
+    margin: 0 auto;
+    padding: 5px 8px;
+ }
+
+nav li{
+    display: inline-block;
+    background-color: rgb(222, 222, 254);
+    padding: 10px 25px;
+    font-size: 18px;
+    margin: auto 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.active{
+    color: rgb(0, 0, 0);
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: black;
+    text-transform: uppercase;
+    text-underline-offset: 15px;
+    background-color: rgb(250, 244, 67);
+}
+
+.skip{
+    position: absolute;
+    left: -1000px;
+}
+.skip:focus{
+    left: 0px;
+}
+p{
+    line-height: 1.5;
+}
+h1{
+    font-family: Merriweather, Anton, “Times New Roman”, Arial ;
+    font-size: 35px;
+    text-align: left;
+}
+h2{
+    font-family: Anton, “Times New Roman”, monospace ;
+    font-size: 25px;
+    text-align: left;
+    font-weight: 600;
+}
+h3{
+    font-family: Anton, “Times New Roman”, monospace;
+    font-size: 20px;
+    text-align: left;
+}
+h4{
+    font-family: Anton, “Times New Roman”, monospace;
+    font-style: italic;
+    font-size: 20px;
+    text-align: left;
+}
+footer{
+    border: solid rgb(0, 0, 0) 5px;
+    background-color: #fdff7f;
+    text-align: center;
+}
+dd{
+
+    font-size: 25px;
+    font-weight: 600;
+    
+}
+dt{
+    font-weight: 600;
+    font-size: 35px;
+    margin-top: 4%;
+    margin-bottom: 1%;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color: black;
+}
+dd>p{
+    font-size: 18px;
+}
